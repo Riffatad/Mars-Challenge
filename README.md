@@ -11,19 +11,13 @@ Run each cell in order:
 Splinter opens the Mars News website and BeautifulSoup parses the HTML.
 Article titles and previews are extracted and stored in a dictionary format with keys title and preview.
 Each dictionary is appended to a list.
-Optional: Save data to mars_news.json by running the final cell for later access.
+## Optional: Save data to mars_news.json by running the final cell for later access.
 The data list is printed for quick review at the end of the notebook.
 The notebook provides a flexible template for web scraping, allowing for adjustments to other sites by modifying the URL and parsing parameters.
 
 # The Mars Weather Analysis:
 
 The Mars Weather Analysis project extracts and analyzes data on Martian temperature and atmospheric pressure over several sols (Martian days). It explores patterns in temperature, atmospheric conditions, and seasonal changes to deepen our understanding of Martian climate.
-Technologies Used
-Python: Primary language for data scraping, processing, and analysis.
-Splinter: For automated browsing and data scraping.
-BeautifulSoup: For HTML parsing and data extraction.
-Pandas: For data manipulation and analysis.
-Matplotlib: For data visualization.
 ## Data Collection
 Data was scraped from the Mars Temperature Data Site. This dataset includes:
 

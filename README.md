@@ -1,4 +1,5 @@
 # Mars-Challenge
+## Part 1: Scrape Titles and Preview Text from Mars News
 This project scrapes titles and preview text from Mars News articles using Python.The scraper accesses the Mars News website, extracts article titles and previews, and stores them in a list of dictionaries, providing a structured way to analyze Mars-related news.Optional: Data can be saved to a JSON file for easy sharing or analysis.
 Prerequisites: Install the following Python packages:
 splinter – for automated browser control
@@ -14,8 +15,8 @@ Each dictionary is appended to a list.
 ## Optional: Save data to mars_news.json by running the final cell for later access.
 The data list is printed for quick review at the end of the notebook.
 The notebook provides a flexible template for web scraping, allowing for adjustments to other sites by modifying the URL and parsing parameters.
-
-# The Mars Weather Analysis:
+## Part 2: Scrape and Analyze Mars Weather Data
+## The Mars Weather Analysis:
 
 The Mars Weather Analysis project extracts and analyzes data on Martian temperature and atmospheric pressure over several sols (Martian days). It explores patterns in temperature, atmospheric conditions, and seasonal changes to deepen our understanding of Martian climate.
 ## Data Collection
